@@ -1,0 +1,167 @@
+body {
+	background-color: white;
+}
+
+.container {
+	width: 800px;
+	margin: 0px auto;
+	padding-top: 50px;
+	display: flex;
+
+}
+
+.gambar {
+	width: 50%;
+
+}
+
+.img-sidebar {
+	width: 100%;
+}
+
+.card-wrapper {
+	width: 50%;
+}
+
+.card {
+	border-style: solid;
+	border-color: #f0f0f0;
+	border-width: 2px;
+	text-align: center;
+	background-color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.logo {
+	width: 180px;
+}
+
+.form {
+	margin-top: 30px; 
+}
+
+.input {
+	width: 300px;
+	height: 30px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 4px;
+	margin-top: 5px;
+}
+
+.btn {
+	background-color: #1877F2;
+	border: 0px solid transparent;
+	margin-top: 20px;
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	color: white;
+
+}
+
+.separator {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #999;
+	margin-top: 5px;
+}
+
+.separator .line {
+	margin-left: 40px;
+	margin-right: 40px;
+	height: 1px;
+	width: 50%;
+	background-color: #dbdbdb;
+}
+
+
+.login-with {
+	color: #01017a;
+	text-decoration: none;
+}
+
+.link-forgot {
+	color: grey;
+	text-decoration: none;
+	font-size: 15px;
+	padding-top: 30px;
+}
+
+.link-signup {
+	color: #1877F2;
+	text-decoration: none;
+}
+
+.card1 {
+	text-align: center;
+	background-color: white;
+	padding-bottom: 10px;
+	padding-top: 0px;
+}
+
+.app-img {
+  flex-direction: row;
+  justify-content: center;
+  margin:10px 0;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+}
+
+.app-img a {
+  margin-right:8px;
+  height: 43.5px;
+}
+
+.app-img img {
+  height:40px;
+}
+
+.footer {
+	padding: 5px 0;
+	background-color: white;
+}
+
+span.language { 
+  color: #003569;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  position: relative;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.footer ul {
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 15px;
+	line-height: 1.8;
+	margin-bottom: 0;
+	text-align: center;
+	width: 800px;
+	margin: 0px auto;
+	padding-top: 50px;
+}
+
+.footer ul li a {
+	color: grey;
+	text-decoration: none;
+	opacity;
+}
+
+.footer ul li {
+	display: inline-block;
+	padding: 0 15px;
+
+}
+
+.footer-logo {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 15px;
+	color: grey;
+}
